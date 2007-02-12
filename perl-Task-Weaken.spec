@@ -6,7 +6,7 @@
 %define		pdir	Task
 %define		pnam	Weaken
 Summary:	Task::Weaken - ensure that a platform has weaken support
-Summary(pl):	Task::Weaken - zapewnienie wsparcia dla "weaken" na platformie
+Summary(pl.UTF-8):   Task::Weaken - zapewnienie wsparcia dla "weaken" na platformie
 Name:		perl-Task-Weaken
 Version:	0.99
 Release:	1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module contains a replacement for Scalar::Util's "weaken"
 function which is not present in the pure-perl variant.
 
-%description -l pl
-Modu³ ten zastêpuje funkcjê "weaken" ze Scalar::Util, której nie ma w
+%description -l pl.UTF-8
+ModuÅ‚ ten zastÄ™puje funkcjÄ™ "weaken" ze Scalar::Util, ktÃ³rej nie ma w
 czystym Perlu.
 
 %prep
