@@ -8,13 +8,13 @@
 Summary:	Task::Weaken - ensure that a platform has weaken support
 Summary(pl.UTF-8):	Task::Weaken - zapewnienie wsparcia dla "weaken" na platformie
 Name:		perl-Task-Weaken
-Version:	0.99
+Version:	1.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Task/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	92de456b6d1be928428babb7ebcdc6c1
+# Source0-md5:	684c2bd2a76f320679fd2df938467e01
 URL:		http://search.cpan.org/dist/Task-Weaken/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
