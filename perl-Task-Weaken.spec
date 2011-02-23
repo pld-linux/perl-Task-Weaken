@@ -6,7 +6,7 @@
 %define		pdir	Task
 %define		pnam	Weaken
 Summary:	Task::Weaken - ensure that a platform has weaken support
-Summary(pl.UTF-8):	Task::Weaken - zapewnienie wsparcia dla "weaken" na platformie
+Summary(pl.UTF-8):	Task::Weaken - zapewnienie obsługi "weaken" na każdej platformie
 Name:		perl-Task-Weaken
 Version:	1.03
 Release:	1
@@ -51,5 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/Task
-%{_mandir}/man3/*
+%dir %{perl_vendorlib}/Task
+%{perl_vendorlib}/Task/Weaken.pm
+%{_mandir}/man3/Task::Weaken.3pm*
