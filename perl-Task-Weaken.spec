@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Task
 %define		pnam	Weaken
 Summary:	Task::Weaken - ensure that a platform has weaken support
