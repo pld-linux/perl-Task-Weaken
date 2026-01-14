@@ -8,7 +8,7 @@ Summary:	Task::Weaken - ensure that a platform has weaken support
 Summary(pl.UTF-8):	Task::Weaken - zapewnienie obsługi "weaken" na każdej platformie
 Name:		perl-Task-Weaken
 Version:	1.06
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
